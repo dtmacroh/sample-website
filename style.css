@@ -1,0 +1,12 @@
+h1 {
+	text-align: center;
+	padding-top: 50px;
+}
+.nav-bar {
+	list-style:none;
+	text-align: center;
+}
+ul li{
+	display:inline;
+}
+	
