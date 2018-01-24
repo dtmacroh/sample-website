@@ -30,20 +30,33 @@ ul{
 		padding-top:10px;
 	padding-bottom: 10px;
 }
+ul li a:hover{
+	color:gray;
+	text-decoration: no
+}
 ul li{
 	display:inline;
 	padding-left: 40px;
 	text-transform: uppercase;
 
-	
-	
+
+
 }
 ul li a{
 	color:white;
 	text-decoration: none;
-	
+
+}
+
+ol li{
+
+	padding-left: 40px;
+	text-decoration: none;
 }
 #home-img{
 	text-align: center;
 }
-	
+#about{
+	padding-left: 30px;
+	padding-top: 30px;
+}
