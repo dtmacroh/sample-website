@@ -19,6 +19,10 @@ header {
 	text-align: center;
 	
 }
+.banner-logo{
+	background-color:#eb9a03;
+	width:75%
+}
 nav{
 	background-color: black;
 	width: 100%;
