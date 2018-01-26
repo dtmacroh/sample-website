@@ -19,9 +19,23 @@ header {
 	text-align: center;
 	
 }
+table tr td{
+	padding:0px;
+	margin:0px;
+}
 .banner-logo{
-	background-color:#eb9a03;
-	width:75%
+	/*background-color:#eb9a03;*/
+	width:75%;
+	background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 51%,#ff7f04 100%);}
+.title{
+	font-weight:900;
+	text-transform: uppercase;
+}
+.sub-header{
+	padding-bottom: 10px;
+}
+#content{
+	padding:7%;
 }
 nav{
 	background-color: black;
