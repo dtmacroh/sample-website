@@ -1,8 +1,7 @@
 
 /*
 Name: 			Debbie Macrohon
-Description: 	Custom CSS file for University of Calgary
-				dummy website.
+Description: 	Custom CSS file for my personal website.
 
 
 */
@@ -24,6 +23,10 @@ table tr td{
 	padding:0px;
 	margin:0px;
 }
+h2{
+	padding-bottom:10px;
+}
+
 .banner-logo{
 	/*background-color:#eb9a03;*/
 	width:75%;
@@ -39,6 +42,10 @@ table tr td{
 #content{
 	padding:7%;
 }
+ul{
+	padding-left:40px;
+	padding-bottom:30px;
+}
 nav{
 	background-color: black;
 	width: 100%;
@@ -48,15 +55,15 @@ nav{
 	list-style:none;
 	text-align: center;
 }
-ul{
+nav > ul{
 	padding-top:10px;
 	padding-bottom: 10px;
 }
-ul li a:hover{
+nav > ul li a:hover{
 	color:gray;
 	text-decoration: no
 }
-ul li{
+nav > ul li{
 	display:inline;
 	padding-left: 40px;
 	text-transform: uppercase;
@@ -64,16 +71,13 @@ ul li{
 
 
 }
-ul li a{
+nav > ul li a{
 	color:white;
 	text-decoration: none;
 
 }
-
-ol li{
-
-	padding-left: 40px;
-	text-decoration: none;
+.center{
+	text-align: center;
 }
 #home-img{
 	text-align: center;
@@ -86,33 +90,15 @@ table tr td{
 
 	text-align:center;
 }
-.col-1{
-	
-}
-.col-2{
-}
+
 .col-3{
 	width:25%
 }
-.col-4{
-}
-.col-5{
-	
-}
-.col-6{
-	width:50%;
-}
-.col-7{
-}
-.col-8{
-}
+
 .col-9{
 	width: 75%;
 }
-.col-10{
-}
-.col-11{
-}
+
 .col-12{
 	width:100%;
 }
